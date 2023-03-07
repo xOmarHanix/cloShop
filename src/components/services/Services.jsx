@@ -1,7 +1,6 @@
 import React from 'react';
 import Heading from '../../common/heading/Heading';
-import HeadingTwo from '../../common/headingTwo/HeadingTwo';
-import { sectionsData, siteServicesData } from '../../assets/data/services';
+import { siteServicesData } from '../../assets/data/services';
 import './services.css';
 
 function Services() {

@@ -1,15 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import  productData  from '../../assets/data/productsData';
 import ProductsContainer from '../../common/productsContainer/ProductsContainer';
 
 function ShopProducts() {
-
-  function delay(milliseconds){
-    return new Promise(resolve => {
-        setTimeout(resolve, milliseconds);
-    });
-  }
 
   const [productsData, setProductsData] = useState(productData);
 

@@ -31,7 +31,7 @@ function CartTable() {
                         {
                             cartItems.map((item,index) => (
                                 <tr key={index}>
-                                    <td className='img'><img src={item.img} /></td>
+                                    <td className='img'><img src={item.img} alt='item' /></td>
                                     <td className='title'>{item.productName}</td>
                                     <td className='price'>${item.price}</td>
                                     <td className='qty'>{item.quantity}px</td>

@@ -7,7 +7,7 @@ function AboutUs() {
     <div className='container'>
         <div className="about-us">
             <div className="about-us-img">
-                <img src={AboutImg}  />
+                <img src={AboutImg} alt='about' />
             </div>
             <div className="about-us-info">
                 <h1>About Us</h1>

@@ -30,7 +30,7 @@ function ProductInfo() {
   return (
     <div className='product-informations'>
         <div className="product-image">
-            <img src={img}  />
+            <img src={img} alt='product' />
         </div>
         <div className="product-info">
             <h1>{productName}</h1>

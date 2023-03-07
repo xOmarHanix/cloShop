@@ -38,7 +38,7 @@ ul a.active {
     flex: 2;
     align-items: center;
     gap: 20px;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .icons .cart-icon {

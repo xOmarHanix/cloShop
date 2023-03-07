@@ -1,9 +1,8 @@
 import React from 'react';
 import './hero.css';
-import Header from '../../common/header/Header';
 import { Link } from 'react-router-dom';
 import HeroImg from '../../assets/images/fb383719-e945-42bd-81cc-749b50e2e16f.jpg';
-import BannerImg from '../../assets/images/portrait-handsome-fashion-stylish-hipster-businessman-model-dressed-elegant-brown-suit-glasses-near-dark-wall.jpg';
+import BannerImg from '../../assets/images/portrait.jpg';
 
 function Hero() {
   return (

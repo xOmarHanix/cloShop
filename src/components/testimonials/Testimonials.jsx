@@ -29,7 +29,7 @@ function Testimonials() {
             testimonialsData.map((item) => (
               <div className="testimonials-items" key={item.id}>
                 <div className="image-box">
-                  <img src={item.img} />
+                  <img src={item.img} alt='item' />
                   <span><FaQuoteLeft /></span>
                 </div>
                 <div className="test-opinion">

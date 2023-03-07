@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Helmet from '../../common/helmet/Helmet';
 import AboutUs from '../../components/aboutUs/AboutUs';
 import BasicPieces from '../../components/basicPieces/BasicPieces';

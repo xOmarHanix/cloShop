@@ -69,7 +69,7 @@ function Header() {
           <BsCart onClick={() => navigate('/cart')} />
         </div>
         <div className="user-icon">
-          <img src={currentUser ? currentUser.photoURL : UserImg} onClick={toggleProfileAction} />
+          <img src={currentUser ? currentUser.photoURL : UserImg} onClick={toggleProfileAction} alt='user' />
         </div>
         <div className="profile-action" ref={profileActionRef} onClick={toggleProfileAction}>
           {

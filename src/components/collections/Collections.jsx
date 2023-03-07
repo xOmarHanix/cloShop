@@ -11,7 +11,7 @@ function Collections() {
             {
                 collectionsData.map((item) => (
                     <div className="collections-items" key={item.id}>
-                        <img src={item.img} />
+                        <img src={item.img} alt='item' />
                         <div className="collections-text">
                             <h2>{item.title}</h2>
                             <h5>Collections</h5>

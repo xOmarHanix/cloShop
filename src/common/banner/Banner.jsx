@@ -7,7 +7,7 @@ function Banner({ title}) {
     <div className='banner'>
         <div className="banner-box">
             <div className="banner-overlay"></div>
-            <img src={BI}  />
+            <img src={BI} alt='banner-img' />
             <h1>{title}</h1>
         </div>
     </div>
