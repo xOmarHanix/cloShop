@@ -11,6 +11,7 @@ import Signup from './screens/Signup';
 function Pages() {
   return (
     <Routes>
+        <Route path='/cloShop/' element={<Navigate to='/home' />} />
         <Route path='/' element={<Navigate to='/home' />} />
         <Route path='/home' element={<Home />} />
         <Route path='/shop' element={<Shop />} />

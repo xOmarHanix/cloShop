@@ -76,11 +76,11 @@
     }
     .hero-banner {
         right: 250px;
-        height: 580px;
+        height: 520px;
     }
     .black-border {
         right: 260px;
-        top: 490px;
+        top: 430px;
     }
 }
 
@@ -99,6 +99,20 @@
     }
     .hero-background {
         height: 540px;
+    }
+}
+
+@media only screen and (min-width : 1920px) {
+    .hero .hero-info {
+        padding: 100px 90px;
+    }
+    .hero-banner {
+        right: 680px;
+        height: 520px;
+    }
+    .black-border {
+        right: 690px;
+        top: 430px;
     }
 }
 
