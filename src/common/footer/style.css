@@ -1,0 +1,100 @@
+.footer {
+    background-color: black;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.footer-info {
+    display: flex;
+    color: aliceblue;
+    gap: 5px;
+    padding: 40px 160px;
+
+}
+
+.footer-info .brand-name {
+    flex: 2;
+}
+
+.footer-info .top-categories,
+.footer-info .useful-links,
+.footer-info .contact {
+    flex: 1;
+}
+
+.footer-info .brand-name h3,
+.footer-info .top-categories h3,
+.footer-info .useful-links h3,
+.footer-info .contact h3 {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.footer-info .brand-name h3 {
+    font-weight: bold;
+}
+
+.footer-info .brand-name p {
+    line-height: 1.5;
+    color: #d6e5fb;
+}
+
+.footer-info .top-categories ul,
+.footer-info .useful-links ul,
+.footer-info .contact ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-info .top-categories li a,
+.footer-info .useful-links li a {
+    color: #d6e5fb;
+    text-decoration: none;
+}
+
+.footer .contact ul li {
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+    color: #d6e5fb;
+}
+
+.footer .contact ul li svg {
+    font-size: 20px;
+}
+
+.footer .footer-copyrights {
+    text-align: center;
+    color: #d6e5fb;
+    padding-bottom: 30px;
+}
+
+.footer .footer-copyrights h5 {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer .footer-copyrights span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+@media only screen and (max-width : 992px) {
+    .footer-info {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .footer-info {
+        display: flex;
+        gap: 0;
+        padding: 20px 40px;
+    }
+    .footer-info .brand-name {
+        display: none;
+    }
+}

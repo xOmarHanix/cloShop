@@ -1,0 +1,23 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading hr {
+    width: 38%;
+    height: 2px;
+}
+
+@media only screen and (max-width : 992px) {
+    .heading hr {
+        width: 36%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .heading hr {
+        width: 32%;
+    }
+}

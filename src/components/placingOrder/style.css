@@ -1,0 +1,41 @@
+.placing-order {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+.placing-order .total-qty,
+.placing-order .sub-total,
+.placing-order .shipping,
+.placing-order .total-cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placing-order .total-cost {
+    border-top: 1px solid #555;
+    padding: 5px;
+}
+
+.placing-order button {
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 992px) {
+    .placing-order {
+        margin-right: 20px;
+    }
+}

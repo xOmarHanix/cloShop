@@ -1,0 +1,70 @@
+.table table {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.table table thead {
+    border-bottom: 1px solid #ccc;
+}
+
+.table table thead tr {
+    display: flex;
+    padding: 10px;
+}
+
+.table table thead tr th {
+    text-align: start !important;
+}
+
+
+
+.title {
+    flex: 2;
+}
+
+.price,
+.qty,
+.delete,
+.img {
+    flex: 1;
+}
+
+.table table tbody tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 2px;
+}
+
+.table table tbody tr:last-of-type {
+    border-bottom: none;
+}
+
+.table table tbody tr td {
+    text-align: start !important;
+}
+
+
+table tbody tr td img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+table tbody tr td svg {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.empty-cart {
+    text-align: center;
+    padding: 70px;
+}
+
+@media only screen and (max-width : 992px) {
+    .table {
+        padding-left: 10px;
+    }
+}

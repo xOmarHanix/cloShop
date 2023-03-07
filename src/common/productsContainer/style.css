@@ -1,0 +1,21 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px auto;
+}
+
+@media only screen and (max-width : 992px) {
+    .products-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px auto;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .products-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px auto;
+    }
+}

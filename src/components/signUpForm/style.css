@@ -1,0 +1,55 @@
+.signup-form {
+    background-color: black;
+    padding: 25px;
+    margin: 20px auto 40px;
+    width: 600px;
+    border-radius: 8px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.signup-form form input {
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.signup-form form input[type = 'file'] {
+    color: white;
+    width: 40%;
+    cursor: pointer;
+}
+
+.signup-form form button {
+    width: 40%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 40px auto 20px;
+    cursor: pointer;
+}
+
+.signup-form p {
+    color: #d6e5fb;
+    text-align: center;
+}
+
+.signup-form p a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.loading {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+}

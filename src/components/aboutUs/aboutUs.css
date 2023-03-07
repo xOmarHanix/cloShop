@@ -1,0 +1,62 @@
+.about-us {
+    display: flex;
+    margin: 0 60px;
+    box-shadow: 2px 2px 4px #aaa;
+    border: 1px solid #ccc;
+    background: #ECE9E6;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+}
+
+.about-us .about-us-img {
+    position: relative;
+    flex: 1.2;
+}
+
+.about-us .about-us-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.about-us .about-us-info {
+    flex: 1.8;
+    padding: 100px;
+}
+
+.about-us .about-us-info p {
+    padding: 60px;
+}
+
+.about-us .about-us-info .signature {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px 65px;
+}
+.about-us .about-us-info .signature hr {
+    width: 120px;
+    height: 2px;
+}
+
+@media only screen and (max-width : 992px) {
+    .about-us .about-us-info {
+        padding: 55px;
+    }
+    .about-us .about-us-info .signature hr {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .about-us .about-us-info {
+        padding: 40px;
+    }
+    .about-us .about-us-info p {
+        padding: 30px;
+    }
+    .about-us .about-us-info .signature hr {
+        width: 15px;
+    }
+}

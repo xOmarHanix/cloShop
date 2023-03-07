@@ -1,0 +1,13 @@
+.heading-two {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.heading-two hr {
+    height: 2px;
+    width: 90%;
+}
+
+

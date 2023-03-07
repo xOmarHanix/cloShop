@@ -1,0 +1,139 @@
+.product-discussion {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 180px;
+}
+
+.product-discussion .desc-rev {
+    display: flex;
+    gap: 60px;
+}
+
+
+.product-discussion .desc-rev h4 {
+    font-weight: 400;
+    color: #000;
+    cursor: pointer;
+}
+
+.product-discussion p {
+    color: #aaa;
+}
+
+.active-tab {
+    font-weight: bolder !important;
+}
+
+.reviews {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviews li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 60px;
+}
+
+.reviews li h5 {
+    font-weight: 600;
+}
+
+.reviews li span {
+    color: coral;
+    font-weight: bold;
+}
+
+.from {
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.from input {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #777;
+    color: #555;
+}
+
+.from .stars-container {
+    display: flex;
+    gap: 60px
+}
+
+.from .stars-container span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.from .stars-container span:hover {
+    color: coral;
+}
+
+.from .stars-container span svg {
+    margin-bottom: 3px;
+}
+
+.from textarea {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+}
+
+.from button {
+    padding: 8px 25px;
+    color: #d6e5fb;
+    background-color: #000;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.realted-title {
+    padding: 0 200px 60px;
+    margin: 0;
+}
+
+.related-products {
+    margin-top: -80px;
+}
+
+@media only screen and (max-width : 992px) {
+    .from input {
+        width: 400px;
+    }
+    .from textarea {
+        width: 400px;
+    }
+    .from button {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .from {
+        padding: 20px 100px;
+    }
+    .from input {
+        width: 400px;
+    }
+    .from textarea {
+        width: 400px;
+    }
+    .from button {
+        width: 120px;
+    }
+}

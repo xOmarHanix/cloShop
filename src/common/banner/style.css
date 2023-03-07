@@ -1,0 +1,26 @@
+
+
+.banner .banner-box {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.banner-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.banner .banner-box img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.banner h1 {
+    text-align: center;
+    line-height: 500px;
+}

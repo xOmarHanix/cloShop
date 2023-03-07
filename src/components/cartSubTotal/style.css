@@ -1,0 +1,41 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subtotal .subtotal-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtotal .subtotal-price h4 {
+    font-weight: 500;
+    color: #777;
+}
+
+.subtotal .subtotal-price h2  {
+    font-weight: bold;
+}
+
+.subtotal p {
+    color: #0a1d37;
+}
+
+.subtotal button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: #d6e5fb;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .subtotal {
+        padding-right: 10px;
+    }
+}
