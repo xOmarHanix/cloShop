@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cloShop/static/css/main.4482f81f.css",
-    "main.js": "/cloShop/static/js/main.7276f813.js",
+    "main.css": "/cloShop/static/css/main.ae5bce4c.css",
+    "main.js": "/cloShop/static/js/main.b9897f69.js",
     "static/media/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wa.jpg": "/cloShop/static/media/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wa.82db1228c139700a2797.jpg",
     "static/media/full-length-portrait-handsome-serious-man.jpg": "/cloShop/static/media/full-length-portrait-handsome-serious-man.159d04a5620c14b657e7.jpg",
     "static/media/portrait.jpg": "/cloShop/static/media/portrait.d883fbb49e49fd0daefa.jpg",
@@ -88,11 +88,11 @@
     "static/media/slick.ttf": "/cloShop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/cloShop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cloShop/index.html",
-    "main.4482f81f.css.map": "/cloShop/static/css/main.4482f81f.css.map",
-    "main.7276f813.js.map": "/cloShop/static/js/main.7276f813.js.map"
+    "main.ae5bce4c.css.map": "/cloShop/static/css/main.ae5bce4c.css.map",
+    "main.b9897f69.js.map": "/cloShop/static/js/main.b9897f69.js.map"
   },
   "entrypoints": [
-    "static/css/main.4482f81f.css",
-    "static/js/main.7276f813.js"
+    "static/css/main.ae5bce4c.css",
+    "static/js/main.b9897f69.js"
   ]
 }
