@@ -49,7 +49,7 @@ function Footer() {
         </div>
         <div className="contact">
           <h3>Contact</h3>
-          <ul>
+          <ul className='contact-list'>
             <li>
               <HiOutlineLocationMarker />
               <span>123 NewYork, USA</span>

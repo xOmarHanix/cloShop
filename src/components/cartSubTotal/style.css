@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin: auto;
 }
 
 .subtotal .subtotal-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px;
 }
 
 .subtotal .subtotal-price h4 {
@@ -20,6 +22,7 @@
 }
 
 .subtotal p {
+    text-align: center;
     color: #0a1d37;
 }
 
@@ -34,8 +37,26 @@
     width: 100%;
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1250px) {
     .subtotal {
         padding-right: 10px;
     }
 }
+
+@media only screen and (max-width : 700px) {
+    .subtotal button {
+        width: 80%;
+        margin-left: calc(100% - 90%)
+    }
+}
+
+@media only screen and (max-width : 400px) {
+
+    .subtotal button {
+        width: 100%;
+        margin-left: 5px;
+    }
+}
+
+
+

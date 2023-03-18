@@ -10,7 +10,7 @@ function Cart() {
     <Helmet title='Cart'>
       <Header />
       <Banner title='Cart' />
-      <div className="flex container">
+      <div className="flex container mb">
         <div className="flex-2">
           <CartTable />
         </div>

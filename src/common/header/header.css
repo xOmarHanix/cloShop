@@ -1,4 +1,4 @@
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,6 +8,17 @@
     position: absolute;
     width: 1120px;
     left: 240px;
+    position: absolute;
+} */
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    background-color: #425158;
+    background-color: white;
 }
 
 .logo {
@@ -59,7 +70,7 @@ ul a.active {
 .icons .cart-icon svg {
     font-size: 24px;
     cursor: pointer;
-    color: aliceblue;
+    color: black;
 }
 
 .icons .user-icon {
@@ -127,7 +138,7 @@ ul a.active {
     z-index: 999;
 }
 
-@media only screen and (max-width : 992px) {
+/* @media only screen and (max-width : 992px) {
     .header {
         width: 100%;
         left: 0;
@@ -144,5 +155,24 @@ ul a.active {
     }
     .icons .cart-icon svg {
         color: black;
+    }
+} */
+
+@media only screen and (max-width : 450px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 350px) {
+    ul {
+        gap: 15px;
+    }
+    .icons {
+        gap: 10px;
+    }
+    .icons .user-icon {
+        width: 35px;
+        height: 35px;
     }
 }

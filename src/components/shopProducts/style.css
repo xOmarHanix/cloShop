@@ -1,6 +1,6 @@
 .shop-products {
     padding: 40px;
-    margin: 60px 0;
+    margin: 60px auto;
 }
 
 .filter-btns {
@@ -28,6 +28,30 @@
     font-weight: bold;
     font-size: 16px;
 }
+
+@media only screen and (max-width : 980px) {
+    .filter-btns {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .btn {
+        padding: 5px !important;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .filter-btns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width : 429px) {
+    .shop-products-container {
+        margin: 60px -40px;
+    }
+}
+
 
 
 

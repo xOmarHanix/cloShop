@@ -10,7 +10,7 @@ function Checkout() {
     <Helmet title='Checkout'>
       <Header />
       <Banner title='Checkout' />
-      <div className="flex container">
+      <div className="flex container mb">
         <div className="flex-2">
           <Inputs />
         </div>

@@ -43,7 +43,7 @@
 }
 
 .table table tbody tr td {
-    text-align: start !important;
+    text-align: center !important;
 }
 
 
@@ -63,8 +63,30 @@ table tbody tr td svg {
     padding: 70px;
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1200px) {
     .table {
         padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+    .table {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width : 510px) {
+    table tbody tr td img {
+        width: 50px;
+        height: 75px;
+    }
+    .empty-cart {
+        padding: 70px 15px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .empty-cart {
+        font-size: 24px;
     }
 }

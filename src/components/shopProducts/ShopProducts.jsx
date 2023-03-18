@@ -58,8 +58,9 @@ function ShopProducts() {
               <button className='btn' value='t-shirts'  onClick={handleFilter}>T-Shirts</button>
               <button className='btn' value='blouses'  onClick={handleFilter}>Blouses</button>
             </div>
-            
-            <ProductsContainer data={productsData} />
+            <div className="shop-products-container">
+              <ProductsContainer data={productsData} />
+            </div>
         </div>
     </div>
   )

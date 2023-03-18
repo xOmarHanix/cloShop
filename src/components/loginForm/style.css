@@ -1,7 +1,7 @@
 .login-form {
     background-color: black;
     padding: 25px;
-    margin: 10px auto 50px;
+    margin: 10px auto 160px;
     width: 600px;
     border-radius: 8px;
 }
@@ -39,4 +39,37 @@
     text-decoration: none;
     color: inherit;
     font-weight: bold;
+}
+
+@media only screen and (max-width : 650px) {
+    .login-form {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width : 550px) {
+    .login-form {
+        width: 400px;
+    }
+    .login-form form button {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width : 420px) {
+    .login-form {
+        width: 350px;
+    }
+    .login-form form button {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width : 370px) {
+    .login-form {
+        width: 280px;
+    }
+    .login-form form button {
+        width: 35%;
+    }
 }

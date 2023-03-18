@@ -103,8 +103,8 @@
 }
 
 .realted-title {
-    padding: 0 200px 60px;
-    margin: 0;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 .related-products {
@@ -135,5 +135,65 @@
     }
     .from button {
         width: 120px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .product-discussion {
+        padding: 60px;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .from input {
+        width: 300px;
+    }
+    .from textarea {
+        width: 300px;
+    }
+    .from button {
+        width: 120px;
+    }
+    .stars-container {
+        gap: 40px !important;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .from input {
+        width: 300px;
+    }
+    .from textarea {
+        width: 300px;
+    }
+    .from button {
+        width: 120px;
+    }
+    .stars-container {
+        gap: 40px !important;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .from {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .product-discussion {
+        padding: 60px 20px;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .from input {
+        width: 250px;
+    }
+    .from textarea {
+        width: 250px;
+    }
+    .stars-container {
+        gap: 28px !important;
     }
 }

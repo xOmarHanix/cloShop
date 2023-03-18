@@ -1,6 +1,6 @@
 .about-us {
     display: flex;
-    margin: 0 60px;
+    margin-top: 200px;
     box-shadow: 2px 2px 4px #aaa;
     border: 1px solid #ccc;
     background: #ECE9E6;  
@@ -40,12 +40,30 @@
     height: 2px;
 }
 
+@media only screen and (max-width : 1290px) {
+    .about-us {
+        margin: 240px 20px;
+    }
+}
+
+@media only screen and (max-width : 1150px) {
+    .about-us .about-us-info .signature hr {
+        width: 60px;
+    }
+}
+
 @media only screen and (max-width : 992px) {
     .about-us .about-us-info {
         padding: 55px;
     }
     .about-us .about-us-info .signature hr {
         width: 50px;
+    }
+}
+
+@media only screen and (max-width : 830px) {
+    .about-us .about-us-info .signature {
+        padding: 10px 40px;
     }
 }
 
@@ -58,5 +76,65 @@
     }
     .about-us .about-us-info .signature hr {
         width: 15px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .about-us-img {
+        display: none;
+    }
+    .about-us .about-us-info .signature {
+        padding: 10px 65px;
+    }
+    .about-us .about-us-info .signature hr {
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width : 490px) {
+    .about-us .about-us-info .signature {
+        padding: 10px 35px;
+    }
+    .about-us .about-us-info .signature hr {
+        width: 10px;
+    }
+}
+
+@media only screen and (max-width : 390px) {
+    .about-us .about-us-info .signature {
+        padding: 10px 20px;
+    }
+    .about-us .about-us-info .signature hr {
+        width: 10px;
+    }
+}
+
+@media only screen and (max-width : 355px) {
+    .about-us-info p {
+        padding: 20px !important;
+    }
+    .about-us .about-us-info .signature {
+        padding: 10px 10px;
+    }
+    .about-us .about-us-info .signature hr {
+        width: 5px;
+    }
+}
+
+@media only screen and (max-width : 325px) {
+    .about-us .about-us-info .signature {
+        padding: 10px 0;
+    }
+    .about-us .about-us-info .signature hr {
+        width: 5px;
+    }
+}
+
+@media only screen and (max-width : 305px) {
+    .about-us .about-us-info .signature {
+        text-align: center;
+    }
+    .about-us .about-us-info .signature hr {
+        display: none;
     }
 }
