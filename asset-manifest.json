@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/cloShop/static/css/main.ae5bce4c.css",
-    "main.js": "/cloShop/static/js/main.b9897f69.js",
+    "main.css": "/cloShop/static/css/main.e8165701.css",
+    "main.js": "/cloShop/static/js/main.6fb9d3f0.js",
     "static/media/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wa.jpg": "/cloShop/static/media/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wa.82db1228c139700a2797.jpg",
     "static/media/full-length-portrait-handsome-serious-man.jpg": "/cloShop/static/media/full-length-portrait-handsome-serious-man.159d04a5620c14b657e7.jpg",
-    "static/media/portrait.jpg": "/cloShop/static/media/portrait.d883fbb49e49fd0daefa.jpg",
     "static/media/man-portrait.jpg": "/cloShop/static/media/man-portrait.997de24f4caa757f8934.jpg",
     "static/media/pexels-harsh-kushwaha-1689731.jpg": "/cloShop/static/media/pexels-harsh-kushwaha-1689731.a1e7d67bd3f257e815dd.jpg",
     "static/media/black sweat pants.png": "/cloShop/static/media/black sweat pants.9170bf8b6c54ca7ef1d5.png",
     "static/media/fashion-portrait-young-elegant-woman.jpg": "/cloShop/static/media/fashion-portrait-young-elegant-woman.acd2fab67a6b192151d4.jpg",
     "static/media/pexels-dark-siren-2307303.jpg": "/cloShop/static/media/pexels-dark-siren-2307303.4ab046867de6ffa0dd57.jpg",
-    "static/media/fb383719-e945-42bd-81cc-749b50e2e16f.jpg": "/cloShop/static/media/fb383719-e945-42bd-81cc-749b50e2e16f.651c6735b84fce7c8e23.jpg",
     "static/media/redish sweater jacket.png": "/cloShop/static/media/redish sweater jacket.a569c2980738a2ee46fb.png",
     "static/media/red boom jacket.png": "/cloShop/static/media/red boom jacket.4f77c1f5db6004b4e79d.png",
+    "static/media/emotional-happy.jpg": "/cloShop/static/media/emotional-happy.f5b0f02efbea222739cc.jpg",
     "static/media/lite brown leather jacket.png": "/cloShop/static/media/lite brown leather jacket.1b74c7196cc0e0dd9473.png",
     "static/media/yellow blue leather jacket.png": "/cloShop/static/media/yellow blue leather jacket.5b3a53eaa9595e2917c9.png",
     "static/media/grey sweater jacket.png": "/cloShop/static/media/grey sweater jacket.b2dbd018a286b5c2d1bd.png",
@@ -34,6 +33,7 @@
     "static/media/pexels-royal-anwar-450212-removebg-preview.png": "/cloShop/static/media/pexels-royal-anwar-450212-removebg-preview.49116c62f1fc8529a8e8.png",
     "static/media/black sweater jacket.png": "/cloShop/static/media/black sweater jacket.fe114bc16cfc4907a32e.png",
     "static/media/blue hoodie.png": "/cloShop/static/media/blue hoodie.9384cbe9cb0a43f52a6d.png",
+    "static/media/portrait-beautifu.jpg": "/cloShop/static/media/portrait-beautifu.088c2af555deea8091db.jpg",
     "static/media/grey cargo.png": "/cloShop/static/media/grey cargo.cd374a5e829f2fe879d3.png",
     "static/media/blue tracy cotton.png": "/cloShop/static/media/blue tracy cotton.fb1217c4d97240ebdede.png",
     "static/media/blue blouse.png": "/cloShop/static/media/blue blouse.e5426ac9661e4505ec75.png",
@@ -88,11 +88,11 @@
     "static/media/slick.ttf": "/cloShop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/cloShop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cloShop/index.html",
-    "main.ae5bce4c.css.map": "/cloShop/static/css/main.ae5bce4c.css.map",
-    "main.b9897f69.js.map": "/cloShop/static/js/main.b9897f69.js.map"
+    "main.e8165701.css.map": "/cloShop/static/css/main.e8165701.css.map",
+    "main.6fb9d3f0.js.map": "/cloShop/static/js/main.6fb9d3f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae5bce4c.css",
-    "static/js/main.b9897f69.js"
+    "static/css/main.e8165701.css",
+    "static/js/main.6fb9d3f0.js"
   ]
 }
